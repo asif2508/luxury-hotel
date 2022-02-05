@@ -1,0 +1,156 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Moon+Dance&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner design  */
+.nav-link:visited{
+    text-decoration: underline !important;
+}
+.nav-link:hover{
+    text-decoration: underline !important;
+    color: white !important;
+}
+.header-section{
+    background-image: url("https://images.unsplash.com/photo-1606402179428-a57976d71fa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.banner{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+.header-para{
+    font-size: 1.8em;
+}
+.header-head{
+    font-weight: bolder;
+    font-size: 4.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-sub-head{
+    font-weight: bolder;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line-dis{
+    line-height: 5px;
+}
+
+.book-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #E0B973;
+    padding: 8px 8px;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+.book-btn:hover{
+    background-color: white;
+    color: #E0B973;
+    border: 2px solid #E0B973;
+}
+.scroller{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.scroll{
+    font-size: 1em;
+    color: white;
+    line-height: 1px;
+}
+.scroll > a{
+    font-size: 1em;
+    color: white;
+    line-height: 1px;
+}
+
+/* breakfast-section  */
+.breakfast-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.breakfast-heading{
+    text-align: center;
+    color: #14274A;
+    font-weight: lighter;
+}
+.desc{
+    border-left: 2px solid #14274A;
+    padding: 3%;
+}
+.break-heading{
+    color: #14274A;
+}
+.break-para{
+    color: #14274A;
+    word-wrap: break-word;
+}
+/* testimonial-section  */
+.testimonial-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.review-heading{
+    font-weight: lighter;
+    color: #14274A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.reviews{
+    font-weight: lighter;
+    color: #14274A;
+}
+.review-name{
+    color: #14274A;
+}
+.left-right{
+    font-size: 1.5em;
+    color: #E0B973;
+}
+.left-right:hover{
+    font-size: 1.7em;
+}
+
+/* footer  */
+footer{
+    background-color: #14274A;
+    height: 50%;
+}
+.name{
+    color: white;
+    font-weight: lighter;
+}
+.footer-heading{
+    line-height: 2px;
+}
+.address{
+    color: white;
+}
+.address a{
+    text-decoration: none;
+    color: white;
+}
+.input-box{
+    width: 50%;
+    margin-right: 0;
+}
+.sub-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #E0B973;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-left: 0;
+    border: 1px solid #E0B973;
+}
+.sub-btn:hover{
+    background-color: white;
+    color: #E0B973;
+    border: 1px solid #E0B973;
+}
